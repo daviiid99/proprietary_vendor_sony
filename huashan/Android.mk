@@ -43,4 +43,14 @@ include $(BUILD_PREBUILT)
 endif
 endif
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := QuickBoot
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/app/QuickBoot/QuickBoot.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
 endif
