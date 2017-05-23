@@ -20,9 +20,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/iddd:system/bin/iddd \
 	vendor/sony/shinano-common/proprietary/bin/idd-logreader:system/bin/idd-logreader \
 	vendor/sony/shinano-common/proprietary/bin/imscmservice:system/bin/imscmservice \
-	vendor/sony/shinano-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-	vendor/sony/shinano-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-	vendor/sony/shinano-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/sony/shinano-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
 	vendor/sony/shinano-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
@@ -39,7 +36,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
 	vendor/sony/shinano-common/proprietary/bin/taimport:system/bin/taimport \
 	vendor/sony/shinano-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-	vendor/sony/shinano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/shinano-common/proprietary/bin/wvkbd:system/bin/wvkbd \
 	vendor/sony/shinano-common/proprietary/bin/iop:system/bin/iop\
 	vendor/sony/shinano-common/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
@@ -445,8 +441,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
-    libTimeService \
-    TimeService \
     libtime_genoff \
     QPerformance
     
