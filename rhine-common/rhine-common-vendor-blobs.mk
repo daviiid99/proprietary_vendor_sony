@@ -42,24 +42,12 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
 	vendor/sony/rhine-common/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/sony/rhine-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-	vendor/sony/rhine-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/sony/rhine-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
 	vendor/sony/rhine-common/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
 	vendor/sony/rhine-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
 	vendor/sony/rhine-common/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
 	vendor/sony/rhine-common/proprietary/etc/firmware/cmnlib.flist:system/etc/firmware/cmnlib.flist \
 	vendor/sony/rhine-common/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
-	vendor/sony/rhine-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-	vendor/sony/rhine-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/sony/rhine-common/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
 	vendor/sony/rhine-common/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
 	vendor/sony/rhine-common/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
@@ -114,8 +102,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
 	vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
 	vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-	vendor/sony/rhine-common/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-	vendor/sony/rhine-common/proprietary/etc/iddd.conf:system/etc/iddd.conf \
 	vendor/sony/rhine-common/proprietary/framework/com.sonyericsson.idd.jar:system/framework/com.sonyericsson.idd.jar \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
 	vendor/sony/rhine-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
@@ -284,11 +270,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.flist:system/vendor/firmware/keymaster/keymaster.flist \
 	vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
 	vendor/sony/rhine-common/proprietary/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -313,14 +294,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
@@ -432,7 +408,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
@@ -444,7 +419,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -477,7 +451,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -491,15 +464,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
