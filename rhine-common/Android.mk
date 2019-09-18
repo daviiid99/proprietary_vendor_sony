@@ -41,19 +41,19 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS   := eng
 LOCAL_MODULE        := tad_static
 LOCAL_MODULE_CLASS  := BIN
-LOCAL_SRC_FILES     := proprietary/sbin/tad_static
+LOCAL_SRC_FILES     := proprietary/bin/tad_static
 LOCAL_MODULE_TAGS   := optional
-LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
-LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_ROOT_OUT_SBIN)/wait4tad_static
+LOCAL_MODULE_PATH   := $(TARGET_OUT_VENDOR_EXECUTABLES)
+LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_VENDOR_EXECUTABLES)/wait4tad_static
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS   := eng
 LOCAL_MODULE        := wait4tad_static
 LOCAL_MODULE_CLASS  := BIN
-LOCAL_SRC_FILES     := proprietary/sbin/wait4tad_static
+LOCAL_SRC_FILES     := proprietary/bin/wait4tad_static
 LOCAL_MODULE_TAGS   := optional
-LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
+LOCAL_MODULE_PATH   := $(TARGET_OUT_VENDOR_EXECUTABLES)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
