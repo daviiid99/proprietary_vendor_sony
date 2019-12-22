@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/bin/updatemiscta:system/vendor/bin/updatemiscta \
 	vendor/sony/shinano-common/proprietary/vendor/bin/wvkbd:system/vendor/bin/wvkbd \
 	vendor/sony/shinano-common/proprietary/vendor/bin/iop:system/vendor/bin/iop\
-	vendor/sony/shinano-common/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/sony/shinano-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -435,7 +434,4 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    QPerformance
-    
-PRODUCT_BOOT_JARS += QPerformance
+    libtime_genoff
