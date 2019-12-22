@@ -188,8 +188,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common/proprietary/lib/libqti-iop.so:system/lib/libqti-iop.so \
 	vendor/sony/shinano-common/proprietary/lib/libqti-iop-client.so:system/lib/libqti-iop-client.so \
 	vendor/sony/shinano-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
-	vendor/sony/shinano-common/proprietary/sbin/tad_static:system/sbin/tad_static \
-	vendor/sony/shinano-common/proprietary/sbin/wait4tad_static:system/sbin/wait4tad_static \
 	vendor/sony/shinano-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/shinano-common/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
 	vendor/sony/shinano-common/proprietary/vendor/CredentialManagerData:system/vendor/CredentialManagerData \
