@@ -83,4 +83,4 @@ PRODUCT_COPY_FILES += \
 
 # Bootlogo
 PRODUCT_COPY_FILES += \
-	vendor/sony/amami/proprietary/root/logo.rle:root/logo.rle
+	vendor/sony/amami/proprietary/root/logo.rle:$(TARGET_COPY_OUT_RAMDISK)/logo.rle
